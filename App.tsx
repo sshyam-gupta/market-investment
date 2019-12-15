@@ -1,27 +1,32 @@
-import React from 'react';
-import { Dimensions, StyleSheet, Text, View } from 'react-native';
+import { createAppContainer, createSwitchNavigator } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
 
-const { height } = Dimensions.get('screen');
+import HomeScreen from './src/screens/HomeScreen';
+import AuthLoadingScreen from './src/screens/AuthLoadingScreen';
+import SignInScreen from './src/screens/SignInScreen';
+import SignUpScreen from './src/screens/SignupScreen';
+import ProfileScreen from './src/screens/ProfileScreen';
+import ReportsScreen from './src/screens/ReportsScreen';
 
-const App = () => {
-  return (
-    <View style={styles.container}>
-      <View style={styles.center}>
-        <Text>Hello React Native Web!!!</Text>
-      </View>
-    </View>
-  );
-};
-
-const styles = StyleSheet.create({
-  container: {
-    height,
-  },
-  center: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
+const AppStack = createStackNavigator({
+  Home: HomeScreen,
+  Profile: ProfileScreen,
+  Reports: ReportsScreen,
 });
 
-export default App;
+const AuthStack = createStackNavigator({ SignIn: SignInScreen, SignUp: SignUpScreen });
+
+const AppNavigator = createAppContainer(
+  createSwitchNavigator(
+    {
+      AuthLoading: AuthLoadingScreen,
+      App: AppStack,
+      Auth: AuthStack
+    },
+    {
+      initialRouteName: 'AuthLoading',
+    }
+  )
+);
+
+export default AppNavigator;

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>185068763105-alv1cn3fimd5ivsq7n2rog4nmd9bb10s.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.185068763105-alv1cn3fimd5ivsq7n2rog4nmd9bb10s</string>
+	<key>API_KEY</key>
+	<string>AIzaSyArHr2hNLSW7eiqxAF319IQpPoJGhM_abo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>185068763105</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>org.reactjs.native.example.marketInvestments</string>
+	<key>PROJECT_ID</key>
+	<string>market-cb0c1</string>
+	<key>STORAGE_BUCKET</key>
+	<string>market-cb0c1.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:185068763105:ios:5645d1243d76c9165004a0</string>
+	<key>DATABASE_URL</key>
+	<string>https://market-cb0c1.firebaseio.com</string>
+</dict>
+</plist>

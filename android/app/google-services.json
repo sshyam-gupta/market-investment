@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "185068763105",
+    "firebase_url": "https://market-cb0c1.firebaseio.com",
+    "project_id": "market-cb0c1",
+    "storage_bucket": "market-cb0c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185068763105:android:f13f26fa2d1201025004a0",
+        "android_client_info": {
+          "package_name": "com.marketinvestments"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "185068763105-qrvtl0qs50p0j29kgsh1t6ojd6ifvj5f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKFj2EG8VMlKpL8zLHRtypIxAJ2C1KxFQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "185068763105-qrvtl0qs50p0j29kgsh1t6ojd6ifvj5f.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "185068763105-alv1cn3fimd5ivsq7n2rog4nmd9bb10s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.marketInvestments"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
